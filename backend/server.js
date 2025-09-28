@@ -29,7 +29,7 @@ const __dirname = path.resolve();
 //middlewares
 app.use(express.json({limit: "20mb"}));
 app.use(cors({
-  origin: "http://localhost:5173",  
+  origin: "https://library-mern-c5wa.onrender.com/api",  
   methods: ["GET", "HEAD", "PUT", "PATCH", "POST", "DELETE", "OPTIONS"],
   credentials: true                 
 }));
