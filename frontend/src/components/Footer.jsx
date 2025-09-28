@@ -7,7 +7,7 @@ const Footer = () => {
       <h3 className='border-t border-[#252422] pt-4 pb-6 italic'>
         Designed and developed by {" "}
         <Link to={"/yourlink"} className='text-[#944424]'>
-        John Doe</Link>
+        Nang Myat Mary Htun</Link>
       </h3>
     </div>
   )
